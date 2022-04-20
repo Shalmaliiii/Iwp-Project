@@ -1,0 +1,85 @@
+.ctr{
+    display: flex;
+    justify-content: center; 
+}
+
+.UserInput{
+    padding: 1rem; 
+}
+select, input{  
+    text-align: center;  
+    width: 16vw;
+    height: 5vh;
+    font-size: large;
+    background-color: aliceblue;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.5px solid gray ;
+    border-radius: 10px; 
+}
+
+input[type="submit"]{
+    width: 15%;
+    font-size: larger;
+    border: 0.2px solid rgba(255, 156, 7, 0.5);
+    background: rgb(43, 43, 51);
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+input[type="submit"]:active{
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+} 
+
+#tableDist{
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: rgb(43, 43, 51);
+    width: 90%;
+}
+
+table{
+    border: 0.5px solid rgb(43, 43, 51);
+    border-radius: 25px;
+}
+  
+td:nth-child(3){
+    margin-bottom: 1rem;
+}
+
+#NoCenter{
+    margin-top: 2%;
+    text-align: center;
+}
+
+th{
+    font-size: 1.1em;
+}
+
+table tr td{
+    border: 0.2px solid rgba(50, 50, 58);
+    border-radius: 4px;
+}
+
+td{
+    text-align : center;
+    padding: 1%;
+    color: white;
+    font-size: 1em;
+}
+
+table tr th{
+    padding: 5px;
+    color : #06d79c;
+    color : turquoise;
+    /* color : #ff9c07; */
+    border: 0.2px solid rgb(50, 50, 58);
+    background-color: rgb(50, 50, 58);
+    border-radius: 5px;
+}

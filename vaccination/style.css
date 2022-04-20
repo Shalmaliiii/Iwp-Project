@@ -1,0 +1,105 @@
+/* *{
+    font-size: 1.2rem;
+    background-color: rgb(252, 252, 252);
+} */
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+/* User Inputs */
+.ctr{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.UserInput{
+    padding: 1rem;
+}
+select, input{  
+    text-align: center;  
+    width: 22vw;
+    height: 5vh;
+    background-color: aliceblue;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.5px solid gray ;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: 13%;
+    height: 45px;
+    border: none;
+    background: rgba(47, 47, 47, 0.8);
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+input[type="submit"]:active{
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+/*  */
+
+/* Choose slot visibility type : ByDist or ByPin */
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 3%;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    margin: 0 auto;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+label:hover{
+    color: rgba(16, 128, 105, 0.4);
+}
+
+input[type="radio"]:checked + label{
+    color: rgba(16, 128, 105);
+}
+/*  */
+
+/* By district */
+
+.table td, th, td{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100vw;
+    border: 1px solid #ddd;
+}
+
+td{
+    padding: 1px;
+}
+
+th {
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: rgb(4, 170, 109,0.8);
+    color: white;
+}
+
+table tr th:nth-child(2n+1){
+    background-color: rgb(4, 170, 109);
+}
+
+/*  */

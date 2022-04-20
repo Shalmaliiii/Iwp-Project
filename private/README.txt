@@ -1,0 +1,1 @@
+move this folder to xampp directory in C:\\
